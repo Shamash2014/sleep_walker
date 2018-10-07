@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Crantabe based time slots generator"
   spec.description   = "Release power of crontab to generate apointment schedule"
-  spec.homepage      = ""
+  spec.homepage      = "http://rubygems.org/gems/sleep_walker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
