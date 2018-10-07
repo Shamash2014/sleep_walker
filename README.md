@@ -22,14 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-### Class methods, recommended
+### Class methods
 ```ruby
 SleepWalker::Planner.run("5 3 2 * *", days: 4)
 ```
 Easy way of getting convinient hash with date key and unix timestamps as a slots. Always return hash with dates and slots
 
 ```ruby
-SleepWalker::Planner.call("5 3 2 * *", days: 4).filter_by(window: [OpenStruct.new(start_datetime: "2018-09-09", end_datetime: "2018-09-10)].to_h
+SleepWalker::Planner.call("5 3 2 * *", days: 4)
+                    .filter_by(window: 
+                        [OpenStruct.new(start_datetime: "2018-09-09", end_datetime: "2018-09-10)]
+                     ).to_h
 ```
 Using call to lazily initialize Planner instance and filter schedule by removing slots from window. Call always return Planner instance. 
 
