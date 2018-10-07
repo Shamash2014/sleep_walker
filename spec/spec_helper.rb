@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "sleep_walker"
+require 'timecop'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

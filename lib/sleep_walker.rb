@@ -1,5 +1,5 @@
 require "sleep_walker/version"
+require 'sleep_walker/planner'
 
 module SleepWalker
-  # Your code goes here...
 end
