@@ -1,5 +1,7 @@
 # SleepWalker
 
+[![Gem Version](https://badge.fury.io/rb/sleep_walker.svg)](https://badge.fury.io/rb/sleep_walker)
+
 Using simple crontab you can generate apointments for you calendar or schedule. Also you can specify next period of days you need this slots to be present or filter by specific window
 
 
