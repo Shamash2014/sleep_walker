@@ -35,7 +35,7 @@ Easy way of getting convinient hash with date key and unix timestamps as a slots
 [![asciicast](https://asciinema.org/a/dHWkh09pgQsiAsa6SL4hPEe8c.png)](https://asciinema.org/a/dHWkh09pgQsiAsa6SL4hPEe8c)
 
 ```ruby
-SleepWalker::Planner.call("5 3 2 * *", days: 4)
+SleepWalker::Planner.call(crontab: "5 3 2 * *", days: 4)
                     .filter_by(window: 
                         [OpenStruct.new(start_datetime: "2018-09-09", end_datetime: "2018-09-10)]
                      ).to_h
