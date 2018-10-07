@@ -28,9 +28,11 @@ Or install it yourself as:
 
 ### Class methods
 ```ruby
-SleepWalker::Planner.run("5 3 2 * *", days: 4)
+SleepWalker::Planner.run(crontab: "5 3 2 * *", days: 4)
 ```
 Easy way of getting convinient hash with date key and unix timestamps as a slots. Always return hash with dates and slots
+
+[![asciicast](https://asciinema.org/a/dHWkh09pgQsiAsa6SL4hPEe8c.png)](https://asciinema.org/a/dHWkh09pgQsiAsa6SL4hPEe8c)
 
 ```ruby
 SleepWalker::Planner.call("5 3 2 * *", days: 4)
