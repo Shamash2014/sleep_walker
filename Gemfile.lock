@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sleep_walker (0.1.1)
+    sleep_walker (0.1.2.alpha)
       chronic (~> 0.10)
       fugit (~> 1.1)
 
