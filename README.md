@@ -1,8 +1,8 @@
 # SleepWalker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sleep_walker`. To experiment with that code, run `bin/console` for an interactive prompt.
+Using simple crontab you can generate apointments for you calendar or schedule. Also you can specify next period of days you need this slots to be present or filter by specific window
 
-TODO: Delete this and the text above, and describe your gem
+
 
 ## Installation
 
