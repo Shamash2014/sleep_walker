@@ -17,7 +17,7 @@ module SleepWalker
 
     def filter_by(window: [])
       date_ranges = window.map { |xs| Range.new(xs.start_datetime, xs.end_datetime) }
-      @schedule.reject { |xs| date_ranges.any? { |ys| ys.include?(xs) } }
+      @schedule = @schedule.reject { |xs| date_ranges.any? { |ys| ys.include?(xs) } }
       self
     end
 
