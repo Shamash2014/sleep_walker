@@ -16,7 +16,7 @@ GEM
       et-orbi (~> 1.1, >= 1.1.6)
       raabro (~> 1.1)
     raabro (1.1.6)
-    rake (10.5.0)
+    rake (12.3.3)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -40,7 +40,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  rake (~> 10.0)
+  rake (~> 12.3)
   rspec (~> 3.0)
   sleep_walker!
   timecop (~> 0.9)
